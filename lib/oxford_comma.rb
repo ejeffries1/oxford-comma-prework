@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.size == 3
     array.insert(2, "and")
     array.collect do |word|
-      word.join(", ")
+      word
     end
   end
 end
